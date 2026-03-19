@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+}
+
+@layer base {
+  body {
+    @apply bg-slate-50 text-slate-900 antialiased;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-slate-200 rounded-full hover:bg-slate-300 transition-colors;
+}
+
+/* Grid Pattern Background */
+.bg-grid-slate-100 {
+  background-image: radial-gradient(circle, #e2e8f0 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+/* react-grid-layout styles override */
+.react-grid-placeholder {
+  @apply !bg-blue-500/5 !rounded-[3rem] !border-2 !border-dashed !border-blue-500/40 !opacity-60 !transition-all !duration-200;
+  z-index: 2 !important;
+}
+
+.react-grid-item.react-draggable-dragging {
+  @apply !shadow-2xl !z-50;
+  transition: transform 0.1s ease-out !important;
+}
+
+.react-grid-item.resizing {
+  @apply !z-50;
+}
+
+.react-resizable-handle {
+  @apply !opacity-0 group-hover:!opacity-100 transition-opacity !p-4;
+}
+
+.react-resizable-handle::after {
+  @apply !border-slate-300 !w-2 !h-2 !right-4 !bottom-4;
+}
