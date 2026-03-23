@@ -12,8 +12,6 @@ An **enterprise-grade custom dashboard builder** that allows users to create dyn
 🎥 **Demo Video:**  
 👉 https://drive.google.com/file/d/1uwxOAnNsCVZj61QJr08WLCSAdDz0TaHj/view?usp=sharing 
 
-> 📌 *(Replace the above links with your actual deployed link or video link)*
-
 ---
 
 ## 📌 Project Overview
