@@ -6,9 +6,6 @@ An **enterprise-grade custom dashboard builder** that allows users to create dyn
 
 ## 🌐 Live Demo
 
-🔗 **Deployed Application:**  
-👉 https://your-live-link.vercel.app  
-
 🎥 **Demo Video:**  
 👉 https://drive.google.com/file/d/1uwxOAnNsCVZj61QJr08WLCSAdDz0TaHj/view?usp=sharing 
 
