@@ -1,35 +1,92 @@
-# Halleyx Dashboard Builder
+# 🚀 Halleyx Dashboard Builder
 
-Enterprise-grade custom dashboard builder with drag-and-drop widgets and customer order management.
+An **enterprise-grade custom dashboard builder** that allows users to create dynamic dashboards using drag-and-drop widgets with real-time customer order analytics.
 
-## Tech Stack
-- **Frontend**: React, Vite, Tailwind CSS, Framer Motion, react-grid-layout, Recharts, Zustand, React Hook Form, Zod.
-- **Backend**: Node.js, Express.js.
-- **Database**: MongoDB (via Mongoose).
+---
 
-## Installation
+## 🌐 Live Demo
 
-1. Install dependencies:
-   ```bash
-   npm install
-   ```
+🔗 **Deployed Application:**  
+👉 https://your-live-link.vercel.app  
 
-2. Configure Environment Variables:
-   - Copy `.env.example` to `.env`.
-   - Set `MONGO_URI` to your MongoDB connection string.
+🎥 **Demo Video:**  
+👉 https://drive.google.com/file/d/1uwxOAnNsCVZj61QJr08WLCSAdDz0TaHj/view?usp=sharing 
 
-## Running the Project
+> 📌 *(Replace the above links with your actual deployed link or video link)*
 
-To start the development server (both Frontend and Backend):
+---
+
+## 📌 Project Overview
+
+The **Halleyx Dashboard Builder** enables users to:
+
+- Build personalized dashboards
+- Visualize customer order data
+- Configure widgets dynamically
+- Analyze data using charts and KPIs
+
+---
+
+## 🛠️ Tech Stack
+
+### 💻 Frontend
+- React.js
+- Vite
+- Tailwind CSS
+- Framer Motion
+- React Grid Layout
+- Recharts
+- Zustand
+- React Hook Form
+- Zod
+
+### ⚙️ Backend
+- Node.js
+- Express.js
+
+### 🗄️ Database
+- MongoDB (Mongoose)
+
+---
+
+## ✨ Features
+
+### 📊 Dashboard Builder
+- Drag-and-drop widgets
+- Resize and rearrange widgets
+- Save & edit dashboard layout
+
+### 📈 Data Visualization
+- Bar Chart, Line Chart, Pie Chart
+- KPI Cards
+- Tables with sorting & filtering
+
+### 🧾 Order Management
+- Create, Update, Delete Orders
+- Customer data handling
+- Automatic total calculation
+
+### 🔍 Advanced Capabilities
+- Global Date Filter
+- Responsive Design (Desktop / Tablet / Mobile)
+- Real-time updates (optional)
+
+---
+
+## 📱 Responsive Design
+
+| Device  | Layout |
+|--------|--------|
+| Desktop | 12-column grid |
+| Tablet  | 8-column grid |
+| Mobile  | 4-column stacked layout |
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1️⃣ Clone Repository
+
 ```bash
-npm run dev
-```
-
-The application will be available at port 3000.
-
-## Features
-- **Dashboard Builder**: Drag and drop widgets, resize, and configure them.
-- **Order Management**: Full CRUD system for customer orders.
-- **Real-time Updates**: Powered by MongoDB change streams (optional) or regular polling.
-- **Responsive Layout**: Adapts to Desktop, Tablet, and Mobile.
-- **Date Filtering**: Global filter for all analytics.
+git clone https://github.com/your-username/Halleyx-DashboardBuilder.git
+cd Halleyx-DashboardBuilder
